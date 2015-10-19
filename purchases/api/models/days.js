@@ -5,6 +5,7 @@ module.exports = {
     name: {
       type: 'string',
       enum: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
+      unique: true,
       columnName: 'name'
     },
     id: {
