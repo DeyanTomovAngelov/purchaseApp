@@ -8,11 +8,11 @@ module.exports = {
       unique: true,
       columnName: 'name'
     },
-    id: {
+    day_id: {
       type: 'integer',
       unique: true,
       primaryKey: true,
-      columnName: 'id',
+      columnName: 'day_id',
       autoIncrement: true
     }
   }
