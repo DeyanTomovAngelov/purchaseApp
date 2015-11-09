@@ -5,6 +5,11 @@ module.exports = {
     dayId: {
       type: 'integer',
       columnName: 'day_id',
+      enum: [0, 1, 2, 3, 4, 5, 6]
+    },
+    id: {
+      type: 'integer',
+      columnName: 'day_id',
       primaryKey: true,
       unique: true
     },
