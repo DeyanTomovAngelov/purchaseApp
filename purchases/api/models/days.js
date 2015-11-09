@@ -8,12 +8,16 @@ module.exports = {
       unique: true,
       columnName: 'name'
     },
-    day_id: {
+    dayId: {
       type: 'integer',
       unique: true,
       primaryKey: true,
-      columnName: 'day_id',
+      columnName: 'dayId',
       autoIncrement: true
+    },
+    purchaseByDay: {
+      collection: 'Purchase',
+      via: 'dayId'
     }
   }
 };

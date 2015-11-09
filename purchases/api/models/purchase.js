@@ -3,15 +3,18 @@ module.exports = {
   tableName: 'purchase',
   attributes: {
     dayId: {
+      model: 'Days',
       type: 'integer',
-      columnName: 'day_id',
-      enum: [0, 1, 2, 3, 4, 5, 6]
+      enum: [0, 1, 2, 3, 4, 5, 6],
+      columnName: 'dayId',
+      required: true
     },
     id: {
       type: 'integer',
-      columnName: 'day_id',
+      columnName: 'id',
       primaryKey: true,
-      unique: true
+      unique: true,
+      autoIncrement: true
     },
     purchaseName: {
       type: 'string',
