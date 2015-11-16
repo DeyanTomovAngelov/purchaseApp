@@ -5,7 +5,7 @@ module.exports = {
     dayId: {
       model: 'Days',
       type: 'integer',
-      enum: [0, 1, 2, 3, 4, 5, 6],
+      enum: [1, 2, 3, 4, 5, 6, 7],
       columnName: 'dayId',
       required: true
     },
@@ -18,12 +18,12 @@ module.exports = {
     },
     purchaseName: {
       type: 'string',
-      columnName: 'purchase_name',
+      columnName: 'purchaseName',
       required: true
     },
     storeName: {
       type: 'string',
-      columnName: 'store_name',
+      columnName: 'storeName',
       required: true
     },
     description: {
