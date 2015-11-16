@@ -1,0 +1,14 @@
+<div class="container main-view">
+  <h2><a href="http://localhost:8000/app/purchaseapp/views/purchase-index.html?#/home/index">Purchases</a></h2>
+  <div class="nav-wrapper">
+    <nav>
+      <div class="nav-title">Purchases by Day</div>
+      <ul class="nav-ul">
+        <li ng-repeat="days in days"><a ui-sref=".purchasesByDay({dayId: days.dayId})">{{days.name}}</a></li>
+      </ul>
+    </nav>
+    <main>
+      <div ui-view></div>
+    </main>
+  </div>
+</div>

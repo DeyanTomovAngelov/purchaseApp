@@ -1,0 +1,286 @@
+/*  General styles   */
+body {
+  background-color: #E9E9EA;
+}
+
+h2 {
+  background: linear-gradient(#EAEEF0, #CDD1D5);
+  border: 1px solid #BDBFC1;
+  margin-bottom: 0;
+  border-radius: 3px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  font-size: 22pt;
+}
+
+h2 a {
+  font-weight: 100;
+}
+
+main {
+  float: left;
+  background-color: #ffffff;
+  height: 550px;
+  width: 75%;
+  border-bottom: 2px solid #D9DBDC;
+  border-right: 2px solid #D9DBDC;
+  border-bottom-right-radius: 5px;
+}
+
+a {
+  margin: 10px;
+  color: #6B899B;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: none;
+}
+ /* End of General Styles */
+
+.main-view {
+  margin-top: 15px;
+  background-color: #E9E9EA;
+}
+
+nav {
+  float: left;
+  background-color: #E9EEF2;
+  margin-bottom: 30px;
+  height: 550px;
+  width: 25%;
+  border-bottom-left-radius: 5px;
+  border-left: 2px solid #D9DBDC;
+  border-right: 1px solid #D9DBDC;
+  border-bottom: 2px solid #D9DBDC;
+}
+
+.nav-title {
+  padding:10px;
+  display: inline-block;
+  font-size: 14pt;
+  font-weight: bold;
+}
+
+.nav-ul {
+  list-style: none;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.nav-ul li {
+  background-color: #F2F2F2;
+  padding: 7px;
+  border-left: 1px solid #D2D4D9;
+  border-right: 1px solid #D2D4D9;
+  border-top: 1px solid #D2D4D9;
+}
+
+.nav-ul li:last-of-type {
+  border-bottom: 1px solid #D2D4D9;
+}
+
+.nav-ul li:hover a {
+  background-color: #2F5D78;
+  color: #fff;
+  cursor: pointer;
+}
+
+.nav-ul li:hover {
+  background-color: #2F5D78;
+  color: #fff;
+  cursor: pointer;
+}
+
+.purchase-btn {
+  float: right;
+  margin-right: 10px;
+  margin-top: -3px;
+  height: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 25px;
+  border-radius: 2px;
+  background: linear-gradient(#82AAC2, #3C6D89);
+  border: 1px solid #3C6D89;
+}
+
+.main-feature {
+  background-color: #fff;
+}
+
+.table-header {
+  font-size: 14pt;
+  background-color: #F6F6F6;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  text-indent: 10px;
+  font-weight: 600;
+  border-left: 1px solid #E2E8EB;
+  border-bottom: 2px solid #E2E8EB;
+  border-right: 1px solid #E2E8EB;
+}
+
+/* Dialog Styles */
+
+label {
+  font-weight: 100;
+  display: inline-block;
+  width: 250px;
+}
+
+#price-label-id {
+  width: 100px;
+}
+
+#description-label {
+  margin-left: 10px;
+}
+
+input {
+  text-indent: 5px;
+  width: 250px;
+  border: 1px solid #bcbcbc;
+}
+
+#price {
+  text-indent: 52px;
+  width: 97px;
+}
+
+.add-wrapper {
+  z-index: 999;
+  position: absolute;
+  margin: -50px 0 0 0;
+  background-color: #ffffff;
+  opacity: 1;
+  border-radius: 5px;
+  border: 10px solid #000;
+}
+
+.add-background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #2f2f2f;
+  opacity: 0.6;
+  z-index: 998;
+}
+
+.validation {
+  display: inline-block;
+  padding: 10px 0 10px 0;
+  margin-left: 10px;
+  color: #ff0000;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.dialog-header {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 100%;
+  background: linear-gradient(#b9d7db, #a0babd);
+  font-size: 16pt;
+  text-indent: 10px;
+  font-weight: 600;
+}
+
+.label-holder {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.input-holder {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+textarea {
+  text-indent: 5px;
+  margin-left: 10px;
+  width: 605px;
+  height: 100px;
+  border: 1px solid #bcbcbc;
+}
+
+.button-holder {
+  border-top: 1px solid #bcbcbc;
+  margin-top: 10px;
+  width: 100%;
+  background-color: #f4f4f4;
+}
+
+.button-holder button {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.validation-holder {
+  margin: 0 auto;
+  width: 350px;
+  text-align: center;
+}
+
+.add-btn {
+  border-radius: 2px;
+  background: linear-gradient(#82AAC2, #3C6D89);
+  margin-left: 10px;
+  width: 75px;
+}
+
+.btn-default {
+  margin-left: 10px;
+  border-radius: 2px;
+  background: linear-gradient(#F6F6F6, #DADADA);
+  color: #3C6D89;
+}
+
+.btn-default:hover {
+  color: #4aabff;
+}
+
+.btn-remove {
+  border-radius: 2px;
+  background: linear-gradient(#F66D6C, #C22F2B);
+  float: right;
+  margin-right: 10px;
+}
+
+.remove-x {
+  float: right;
+  margin-right: 10px;
+  margin-top: 3px;
+  color: #2F5D78;
+}
+
+.remove-x:hover {
+  cursor: pointer;
+}
+
+/* End of Dialog Styles */
+
+table {
+  position: absolute;
+  width: 832px !important;
+  background-color: #fff;
+  margin: 10px;
+  border: 1px solid #D0E2EF;
+}
+
+thead {
+  background: linear-gradient(#EFF4F6, #DDE9F0);
+  font-weight: bold
+}
+
+tbody tr:hover {
+  background: linear-gradient(#EFF4F6, #DDE9F0);
+  cursor: pointer;
+}
+
+.td-price {
+  width: 100px;
+}
