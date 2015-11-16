@@ -56,4 +56,5 @@ npm-debug.log
 .netbeans
 nbproject
 .idea
+../.idea
 .node_history

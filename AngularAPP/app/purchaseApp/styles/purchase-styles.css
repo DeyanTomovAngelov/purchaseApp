@@ -183,7 +183,8 @@ input {
   padding-top: 5px;
   padding-bottom: 5px;
   width: 100%;
-  background: linear-gradient(#b9d7db, #a0babd);
+  background: linear-gradient(#D3DDE0, #C5CDD1);
+  border-bottom: 2px solid #BBBBBA;
   font-size: 16pt;
   text-indent: 10px;
   font-weight: 600;
@@ -208,10 +209,10 @@ textarea {
 }
 
 .button-holder {
-  border-top: 1px solid #bcbcbc;
+  border-top: 2px solid #CFDBE1;
   margin-top: 10px;
   width: 100%;
-  background-color: #f4f4f4;
+  background-color: #F6F6F6;
 }
 
 .button-holder button {
