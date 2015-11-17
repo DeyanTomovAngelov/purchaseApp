@@ -14,10 +14,10 @@ angular.module('app', ['ui.router', 'restangular', 'ngMessages']).
                 templateUrl: "views/home.html",
                 abstract: true
             })
-          .state('home.index', {
-            url: "/index",
-            template: ""
-          })
+            .state('home.index', {
+                url: "/index",
+                template: ""
+            })
             .state('home.purchasesByDay', {
                 url: "/purchases-by-day/:dayId",
                 templateUrl: "views/purchasesByDay.html",
