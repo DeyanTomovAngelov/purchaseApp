@@ -2,6 +2,120 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28a3e8fe-b7bd-49fc-a45a-13523f91cc66" name="Default" comment="">
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\bower_components\angular-loader\.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\bower_components\angular-loader\README.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\bower_components\angular-loader\angular-loader.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\bower_components\angular-loader\angular-loader.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\bower_components\angular-loader\angular-loader.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\bower_components\angular-loader\bower.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\bower_components\angular-loader\package.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\bower_components\angular-mocks\.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\bower_components\angular-mocks\README.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\bower_components\angular-mocks\angular-mocks.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\bower_components\angular-mocks\bower.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\bower_components\angular-mocks\ngAnimateMock.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\bower_components\angular-mocks\ngMock.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\bower_components\angular-mocks\ngMockE2E.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\bower_components\angular-mocks\package.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\bower_components\angular-route\.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\bower_components\angular-route\README.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\bower_components\angular-route\angular-route.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\bower_components\angular-route\angular-route.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\bower_components\angular-route\angular-route.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\bower_components\angular-route\bower.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\bower_components\angular-route\index.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\bower_components\angular-route\package.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\bower_components\angular\.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\bower_components\angular\README.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\bower_components\angular\angular-csp.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\bower_components\angular\angular.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\bower_components\angular\angular.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\bower_components\angular\angular.min.js.gzip" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\bower_components\angular\angular.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\bower_components\angular\bower.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\bower_components\angular\index.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\bower_components\angular\package.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\bower_components\html5-boilerplate\.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\bower_components\html5-boilerplate\.editorconfig" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\bower_components\html5-boilerplate\.gitattributes" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\bower_components\html5-boilerplate\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\bower_components\html5-boilerplate\.jscsrc" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\bower_components\html5-boilerplate\.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\bower_components\html5-boilerplate\.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\bower_components\html5-boilerplate\CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\bower_components\html5-boilerplate\CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\bower_components\html5-boilerplate\LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\bower_components\html5-boilerplate\README.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\bower_components\html5-boilerplate\dist\.editorconfig" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\bower_components\html5-boilerplate\dist\.gitattributes" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\bower_components\html5-boilerplate\dist\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\bower_components\html5-boilerplate\dist\.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\bower_components\html5-boilerplate\dist\404.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\bower_components\html5-boilerplate\dist\LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\bower_components\html5-boilerplate\dist\apple-touch-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\bower_components\html5-boilerplate\dist\browserconfig.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\bower_components\html5-boilerplate\dist\crossdomain.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\bower_components\html5-boilerplate\dist\css\main.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\bower_components\html5-boilerplate\dist\css\normalize.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\bower_components\html5-boilerplate\dist\doc\TOC.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\bower_components\html5-boilerplate\dist\doc\css.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\bower_components\html5-boilerplate\dist\doc\extend.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\bower_components\html5-boilerplate\dist\doc\faq.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\bower_components\html5-boilerplate\dist\doc\html.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\bower_components\html5-boilerplate\dist\doc\js.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\bower_components\html5-boilerplate\dist\doc\misc.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\bower_components\html5-boilerplate\dist\doc\usage.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\bower_components\html5-boilerplate\dist\favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\bower_components\html5-boilerplate\dist\humans.txt" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\bower_components\html5-boilerplate\dist\img\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\bower_components\html5-boilerplate\dist\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\bower_components\html5-boilerplate\dist\js\main.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\bower_components\html5-boilerplate\dist\js\plugins.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\bower_components\html5-boilerplate\dist\js\vendor\jquery-1.11.3.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\bower_components\html5-boilerplate\dist\js\vendor\modernizr-2.8.3.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\bower_components\html5-boilerplate\dist\robots.txt" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\bower_components\html5-boilerplate\dist\tile-wide.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\bower_components\html5-boilerplate\dist\tile.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\bower_components\html5-boilerplate\gulpfile.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\bower_components\html5-boilerplate\package.json" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\bower_components\html5-boilerplate\src\.editorconfig" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\bower_components\html5-boilerplate\src\.gitattributes" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\bower_components\html5-boilerplate\src\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\bower_components\html5-boilerplate\src\404.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\bower_components\html5-boilerplate\src\apple-touch-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\bower_components\html5-boilerplate\src\browserconfig.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\bower_components\html5-boilerplate\src\crossdomain.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\bower_components\html5-boilerplate\src\css\main.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\bower_components\html5-boilerplate\src\doc\TOC.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\bower_components\html5-boilerplate\src\doc\css.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\bower_components\html5-boilerplate\src\doc\extend.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\bower_components\html5-boilerplate\src\doc\faq.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\bower_components\html5-boilerplate\src\doc\html.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\bower_components\html5-boilerplate\src\doc\js.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\bower_components\html5-boilerplate\src\doc\misc.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\bower_components\html5-boilerplate\src\doc\usage.md" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\bower_components\html5-boilerplate\src\favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\bower_components\html5-boilerplate\src\humans.txt" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\bower_components\html5-boilerplate\src\img\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\bower_components\html5-boilerplate\src\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\bower_components\html5-boilerplate\src\js\main.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\bower_components\html5-boilerplate\src\js\plugins.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\bower_components\html5-boilerplate\src\js\vendor\modernizr-2.8.3.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\bower_components\html5-boilerplate\src\robots.txt" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\bower_components\html5-boilerplate\src\tile-wide.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\bower_components\html5-boilerplate\src\tile.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\bower_components\html5-boilerplate\test\file_content.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\bower_components\html5-boilerplate\test\file_existence.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\purchaseApp\controllers\mainController.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\purchaseApp\controllers\purchaseController.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\purchaseApp\module\app.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\purchaseApp\services\purchaseService.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\purchaseApp\styles\purchase-styles.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\purchaseApp\views\addPurchase.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\purchaseApp\views\home.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\purchaseApp\views\purchase-index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\APPS\AngularAPP\app\purchaseApp\views\purchasesByDay.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="APPS.iws" />
@@ -23,38 +137,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="mainController.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AngularAPP/app/purchaseApp/controllers/mainController.js">
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AngularAPP/app/views/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+            <state vertical-scroll-proportion="-7.1923075">
+              <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/AngularAPP/app/purchaseApp/module/app.js">
+      <file leaf-file-name="purchase-index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AngularAPP/app/views/purchase-index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2771739">
-              <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+            <state vertical-scroll-proportion="0.49440715">
+              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="purchaseController.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AngularAPP/app/purchaseApp/controllers/purchaseController.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="purchaseService.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AngularAPP/app/purchaseApp/services/purchaseService.js">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AngularAPP/app/module/app.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -73,6 +177,7 @@
       <list>
         <option value="$PROJECT_DIR$/AngularAPP/app/purchaseApp/styles/purchase-styles.css" />
         <option value="$PROJECT_DIR$/AngularAPP/app/purchaseApp/views/purchase-index.html" />
+        <option value="$PROJECT_DIR$/AngularAPP/app/views/home.html" />
       </list>
     </option>
   </component>
@@ -162,10 +267,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="purchaseApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -187,10 +288,6 @@
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="purchaseApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -207,58 +304,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="purchaseApp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="module" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="APPS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="APPS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AngularAPP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="purchaseApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="APPS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="APPS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AngularAPP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -450,15 +499,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AngularAPP/app/purchaseApp/styles/purchase-styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6405375">
-          <caret line="225" column="21" selection-start-line="225" selection-start-column="21" selection-end-line="225" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AngularAPP/app/purchaseApp/services/purchaseService.js">
+    <entry file="file://$PROJECT_DIR$/AngularAPP/app/module/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -466,7 +507,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AngularAPP/app/purchaseApp/controllers/purchaseController.js">
+    <entry file="file://$PROJECT_DIR$/AngularAPP/app/views/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.1923075">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AngularAPP/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -474,15 +523,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AngularAPP/app/purchaseApp/controllers/mainController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AngularAPP/app/purchaseApp/views/home.html">
+    <entry file="file://$PROJECT_DIR$/AngularAPP/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -490,18 +531,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AngularAPP/app/purchaseApp/views/purchase-index.html">
+    <entry file="file://$PROJECT_DIR$/AngularAPP/LICENSE">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.078431375">
-          <caret line="4" column="63" selection-start-line="4" selection-start-column="63" selection-end-line="4" selection-end-column="63" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AngularAPP/app/purchaseApp/module/app.js">
+    <entry file="file://$PROJECT_DIR$/AngularAPP/app/views/purchase-index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2771739">
-          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+        <state vertical-scroll-proportion="0.49440715">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding />
         </state>
       </provider>
