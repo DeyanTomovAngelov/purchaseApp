@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('myApp', ['ui.router', 'restangular', 'ngMessages']).
+angular.module('app', ['ui.router', 'restangular', 'ngMessages']).
     config(function($stateProvider, $urlRouterProvider, RestangularProvider){
         // Set the base Object for RestAngular
         RestangularProvider.setBaseUrl('http://localhost:1337/');

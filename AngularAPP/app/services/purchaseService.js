@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('myApp').service('purchaseService', ['Restangular', function(Restangular) {
+angular.module('app').service('purchaseService', ['Restangular', function(Restangular) {
   var purchaseService = {};
 
   // Getting all the data from the backend table days (sailsJS model) with RestAngular.

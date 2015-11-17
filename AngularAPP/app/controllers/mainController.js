@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('myApp')
+angular.module('app')
   .controller('mainController', ['$scope', '$state', '$stateParams', 'purchaseService',
     function($scope, $state, $stateParams, purchaseService) {
 
