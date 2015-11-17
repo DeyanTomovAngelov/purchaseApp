@@ -5,7 +5,7 @@
 
 // Load plugins
 var gulp = require('gulp'),
-    //sass = require('gulp-ruby-sass'),
+    sass = require('gulp-ruby-sass'),
     autoprefixer = require('gulp-autoprefixer'),
     minifycss = require('gulp-minify-css'),
     jshint = require('gulp-jshint'),
@@ -16,18 +16,43 @@ var gulp = require('gulp'),
     notify = require('gulp-notify'),
     cache = require('gulp-cache'),
     livereload = require('gulp-livereload'),
+    open = require('gulp-open'),
+    os = require('os'),
+    connect = require('gulp-connect'),
     del = require('del');
 
+
+// Create a server
+gulp.task('run', function() {
+    gulp.src('app/index.html');
+    connect.server();
+});
+
+connect.server({
+    port: 8000
+});
+
+// Run the app in the browser
+var browser = os.platform() === 'linux' ? 'google-chrome' : (
+    os.platform() === 'darwin' ? 'google chrome' : (
+        os.platform() === 'win32' ? 'chrome' : 'firefox'));
+
+
+gulp.task('run-app', function(){
+    gulp.src('app/index.html')
+        .pipe(open({uri: 'http://localhost:8000/app/#/home/index'}));
+});
+
 // Styles
-//gulp.task('styles', function() {
-//  return sass('src/styles/main.scss', { style: 'expanded' })
-//    .pipe(autoprefixer('last 2 version'))
-//    .pipe(gulp.dest('dist/styles'))
-//    .pipe(rename({ suffix: '.min' }))
-//    .pipe(minifycss())
-//    .pipe(gulp.dest('dist/styles'))
-//    .pipe(notify({ message: 'Styles task complete' }));
-//});
+gulp.task('styles', function() {
+  return sass('app/styles/main.scss', { style: 'expanded' })
+    .pipe(autoprefixer('last 2 version'))
+    .pipe(gulp.dest('dist/styles'))
+    .pipe(rename({ suffix: '.min' }))
+    .pipe(minifycss())
+    .pipe(gulp.dest('dist/styles'))
+    .pipe(notify({ message: 'Styles task complete' }));
+});
 
 // Scripts
 gulp.task('scripts', function() {
@@ -61,12 +86,12 @@ gulp.task('clean', function() {
 //});
 
 gulp.task('default', ['clean'], function() {
-  gulp.start('scripts', 'watch');
+  gulp.start('styles', 'scripts', 'watch');
 });
 
 // jshint task
 gulp.task('jshint', function() {
-  return gulp.src('app/purchaseApp/**/*.js')
+  return gulp.src('app/**/*.js')
     .pipe(jshint())
     .pipe(jshint.reporter('jshint-stylish'));
 });
@@ -75,13 +100,13 @@ gulp.task('jshint', function() {
 gulp.task('watch', function() {
 
   // Watch .scss files
-  //gulp.watch('src/styles/**/*.scss', ['styles']);
+  gulp.watch('app/styles/**/*.scss', ['styles']);
 
   // Watch .js files
-  gulp.watch('app/purchaseApp/**/*.js', ['scripts']);
+  gulp.watch('app/**/*.js', ['scripts']);
 
   // Watch .js files for jshint
-  gulp.watch('app/purchaseApp/**/*.js', ['jshint']);
+  gulp.watch('app/**/*.js', ['jshint']);
 
   // Watch image files
   //gulp.watch('src/images/**/*', ['images']);

@@ -20,7 +20,7 @@ h2 a {
 main {
   float: left;
   background-color: #ffffff;
-  height: 550px;
+  height: 555px;
   width: 75%;
   border-bottom: 2px solid #D9DBDC;
   border-right: 2px solid #D9DBDC;
@@ -47,7 +47,7 @@ nav {
   float: left;
   background-color: #E9EEF2;
   margin-bottom: 30px;
-  height: 550px;
+  height: 555px;
   width: 25%;
   border-bottom-left-radius: 5px;
   border-left: 2px solid #D9DBDC;

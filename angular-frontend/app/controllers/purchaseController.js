@@ -34,7 +34,7 @@ angular.module('app')
       // Attaching purchaseService.deletePurchase to the controller. The purchase argument is the row for deleting and
       // it is been given to the function in the view(purchaseByDay.html).
       $scope.deletePurchase = function (purchase) {
-        purchaseService.deletePurchase(purchase)
+        purchaseService.deletePurchase(purchase);
       };
 
       // Attaching the edit function from the purchaseService to the scope, going to the dialog for editing setting the editMode to true and
