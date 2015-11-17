@@ -6,7 +6,7 @@ angular.module('app', ['ui.router', 'restangular', 'ngMessages']).
         RestangularProvider.setBaseUrl('http://localhost:1337/');
 
         // For any unmatched url, send to /home/index
-        //$urlRouterProvider.otherwise("/home/index");
+        $urlRouterProvider.otherwise("/home/index");
 
         $stateProvider
             .state('home', {
