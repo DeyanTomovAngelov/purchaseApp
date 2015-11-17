@@ -56,5 +56,5 @@ npm-debug.log
 .netbeans
 nbproject
 .idea
-*.idea
+AngularAPP/.idea
 .node_history
