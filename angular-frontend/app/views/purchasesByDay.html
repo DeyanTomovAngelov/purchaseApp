@@ -10,7 +10,7 @@
       </tr>
     </thead>
     <tbody>
-      <tr ng-repeat="row in purchases">
+      <tr ng-repeat="row in purchaseService.currentDayPurchases">
         <td ng-click="editPurchase(row)">{{row.purchaseName}}</td>
         <td ng-click="editPurchase(row)">{{row.storeName}}</td>
         <td ng-click="editPurchase(row)">{{row.description}}</td>
