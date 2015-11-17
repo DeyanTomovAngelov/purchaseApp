@@ -49,16 +49,6 @@ angular.module('app').service('purchaseService', ['Restangular', function(Restan
     return Restangular.one('purchase', dataObject.id).put(dataObject);
   };
 
-  //purchaseService.tableRefresh =  function ($stateParams, $state, $scopePurchases, $scopeData) {
-  //  return purchaseService.purchases($stateParams)
-  //      .then(function (updatedPurchases) {
-  //        $scopePurchases = updatedPurchases;
-  //        $state.go('home.purchasesByDay');
-  //        $scopeData.templateObject = {};
-  //        $scopeData.editMode = false;
-  //      });
-  //};
-
   return purchaseService;
 
 }]);
