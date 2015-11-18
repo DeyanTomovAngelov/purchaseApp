@@ -1,23 +1,25 @@
-<header class="table-header">{{data.currentDay.name}} Purchases<button class="btn btn-primary purchase-btn" ui-sref="home.purchasesByDay.addPurchase">Add Purchase</button></header>
-<div class="main-feature">
-  <table class="table table-striped">
-    <thead>
+<div class="view-wrapper">
+  <header class="table-header">{{data.currentDay.name}} Purchases<button class="btn btn-primary purchase-btn" ui-sref="home.purchasesByDay.addPurchase">Add Purchase</button></header>
+  <div class="main-feature">
+    <table class="table table-striped">
+      <thead>
       <tr>
         <td>Purchase Name</td>
         <td>Store Name</td>
         <td>Description</td>
         <td>Price</td>
       </tr>
-    </thead>
-    <tbody>
+      </thead>
+      <tbody>
       <tr ng-repeat="row in purchaseService.currentDayPurchases">
         <td ng-click="editPurchase(row)">{{row.purchaseName}}</td>
         <td ng-click="editPurchase(row)">{{row.storeName}}</td>
         <td ng-click="editPurchase(row)">{{row.description}}</td>
         <td class="td-price">{{row.price | number:2}}<span ng-click="deletePurchase(row)" class="glyphicon glyphicon-remove remove-x"></span></td>
       </tr>
-    </tbody>
-  </table>
-</div>
+      </tbody>
+    </table>
+  </div>
 
-<div ui-view="add"></div>
+  <div ui-view="add"></div>
+</div>

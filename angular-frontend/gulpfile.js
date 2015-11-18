@@ -45,7 +45,7 @@ gulp.task('run-app', function(){
 
 // Styles
 gulp.task('styles', function() {
-  return sass('app/styles/main.scss', { style: 'expanded' })
+  return sass('app/styles/main-style.scss', { style: 'expanded' })
     .pipe(autoprefixer('last 2 version'))
     .pipe(gulp.dest('dist/styles'))
     .pipe(rename({ suffix: '.min' }))

@@ -42,7 +42,7 @@ angular.module('app')
       $scope.editPurchase = function (purchase) {
         $state.go('home.purchasesByDay.addPurchase');
         $scope.data.editMode = true;
-        $scope.data.templateObject = purchaseService.editPurchase(purchase, $state);
+        $scope.data.templateObject = purchaseService.editPurchase(purchase);
       };
 
       // Attaching the saveEditedPurchase function to the controller and saving the edited changes

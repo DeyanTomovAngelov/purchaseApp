@@ -4,7 +4,7 @@
     <nav>
       <div class="nav-title">Purchases by Day</div>
       <ul class="nav-ul">
-        <li ng-repeat="days in days"><a ui-sref=".purchasesByDay({dayId: days.dayId})">{{days.name}}</a></li>
+        <li ng-repeat="day in days"><a ui-sref=".purchasesByDay({dayId: day.dayId})">{{day.name}}</a></li>
       </ul>
     </nav>
     <main>

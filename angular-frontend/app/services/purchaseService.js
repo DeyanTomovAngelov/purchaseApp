@@ -64,6 +64,10 @@ angular.module('app').service('purchaseService', ['Restangular', function(Restan
     return Restangular.one('purchase', dataObject.id).put(dataObject).then(function () {
       purchaseService.getPurchases();
     });
+    //var editedPurchase = Restangular.copy(dataObject);
+    //return editedPurchase.put().then(function () {
+    //  purchaseService.getPurchases();
+    //});
   };
 
   return purchaseService;
