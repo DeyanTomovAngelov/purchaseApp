@@ -1,13 +1,15 @@
 <div class="container main-view">
-  <h2><a ui-sref="home.index">Purchases</a></h2>
-  <div class="nav-wrapper">
-    <nav>
+  <div class="row">
+    <h2 class="col-md-12"><a ui-sref="home.index">Purchases</a></h2>
+  </div>
+  <div class="nav-wrapper row">
+    <nav class="col-md-3">
       <div class="nav-title">Purchases by Day</div>
       <ul class="nav-ul">
         <li ng-repeat="day in days"><a ui-sref=".purchasesByDay({dayId: day.dayId})">{{day.name}}</a></li>
       </ul>
     </nav>
-    <main>
+    <main class="col-md-9">
       <div ui-view></div>
     </main>
   </div>

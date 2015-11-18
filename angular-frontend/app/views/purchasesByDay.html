@@ -1,5 +1,8 @@
 <div class="view-wrapper">
-  <header class="table-header">{{data.currentDay.name}} Purchases<button class="btn btn-primary purchase-btn" ui-sref="home.purchasesByDay.addPurchase">Add Purchase</button></header>
+  <div class="row">
+    <header class="table-header col-md-10">{{data.currentDay.name}} Purchases</header>
+    <button class="btn btn-primary purchase-btn col-md-2" ui-sref="home.purchasesByDay.addPurchase">Add Purchase</button>
+  </div>
   <div class="main-feature">
     <table class="table table-striped">
       <thead>
