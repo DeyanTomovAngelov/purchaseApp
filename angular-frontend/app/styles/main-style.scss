@@ -31,15 +31,14 @@ nav {
   border-bottom: 2px solid #D9DBDC;
 
   .nav-title {
-    padding:10px 0 0 0;
+    padding:10px 0 10px 0;
     font-size: 14pt;
     font-weight: bold;
   }
 
   .nav-ul {
     list-style: none;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 0;
 
     li {
       background-color: #F2F2F2;
@@ -47,6 +46,29 @@ nav {
       border-left: 1px solid #D2D4D9;
       border-right: 1px solid #D2D4D9;
       border-top: 1px solid #D2D4D9;
+
+      a {
+        margin: 10px;
+        color: #6B899B;
+        font-weight: bold;
+      }
+
+    }
+
+    li:last-of-type {
+      border-bottom: 1px solid #D2D4D9;
+    }
+
+    li:hover {
+      background-color: #2F5D78;
+      color: #fff;
+      cursor: pointer;
+    }
+
+    li:hover a {
+      background-color: #2F5D78;
+      color: #fff;
+      cursor: pointer;
     }
 
   }
@@ -60,5 +82,95 @@ main {
   border-bottom: 2px solid #D9DBDC;
   border-right: 2px solid #D9DBDC;
   border-bottom-right-radius: 5px;
+
+  //Dialog styles here
+
+  .add-wrapper {
+    padding: 0 15px 0 15px;
+    width: 650px;
+    z-index: 999;
+    position: absolute;
+    margin: -50px 0 0 0;
+    background-color: #ffffff;
+    opacity: 1;
+    border-radius: 5px;
+    border: 10px solid #000;
+
+    .dialog-header {
+      padding-top: 5px;
+      padding-bottom: 5px;
+      background: linear-gradient(#D3DDE0, #C5CDD1);
+      border-bottom: 2px solid #BBBBBA;
+      font-size: 16pt;
+      text-indent: 10px;
+      font-weight: 600;
+    }
+  }
+
+  .add-background {
+    position: absolute !important;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #2f2f2f;
+    opacity: 0.6;
+    z-index: 998;
+  }
+
+  .table-header {
+    font-size: 14pt;
+    background-color: #F6F6F6;
+    font-weight: 600;
+    border-left: 1px solid #E2E8EB;
+    border-bottom: 2px solid #E2E8EB;
+    border-right: 1px solid #E2E8EB;
+
+    header {
+      padding: 10px 0 10px 0;
+      text-indent: 15px;
+    }
+
+    .purchase-btn {
+      margin-top: 6px;
+      margin-left: 0px;
+      right: 15px;
+      border-radius: 2px;
+      background: linear-gradient(#82AAC2, #3C6D89);
+      border: 1px solid #3C6D89;
+    }
+  }
+
+  .main-feature {
+    background-color: #fff;
+
+    table {
+      background-color: #fff;
+      margin-top: 15px;
+      border: 1px solid #D0E2EF;
+
+      thead {
+        background: linear-gradient(#EFF4F6, #DDE9F0);
+        font-weight: bold
+      }
+
+      tbody tr:hover {
+        background: linear-gradient(#EFF4F6, #DDE9F0);
+        cursor: pointer;
+      }
+
+      .td-price {
+        width: 100px;
+
+        .remove-x {
+          float: right;
+          margin-right: 10px;
+          margin-top: 3px;
+          color: #2F5D78;
+        }
+      }
+    }
+  }
 }
+
 
