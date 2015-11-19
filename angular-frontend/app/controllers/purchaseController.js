@@ -26,12 +26,6 @@ angular.module('app')
         returnToCurrentDayPurchase();
       };
 
-      //$scope.alaBala = function () {
-      //  //$('nav').addClass('add-background');
-      //  //$('.nav-ul').addClass('add-background');
-      //  $('.container').addClass('add-background');
-      //};
-
       // Removed the cancel function from purchaseService, it was redundant to keep it there.
       $scope.cancelPurchase = function () {
         returnToCurrentDayPurchase();

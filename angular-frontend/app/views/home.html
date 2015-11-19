@@ -9,7 +9,7 @@
         <li ng-repeat="day in days"><a ui-sref=".purchasesByDay({dayId: day.dayId})">{{day.name}}</a></li>
       </ul>
     </nav>
-    <main class="col-md-9">
+    <main class="col-md-9 force-static">
       <div ui-view></div>
     </main>
   </div>

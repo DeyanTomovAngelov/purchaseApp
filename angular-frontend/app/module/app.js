@@ -1,10 +1,11 @@
 'use strict';
 
-angular.module('app', ['ui.router', 'restangular', 'ngMessages']).
-    //constant('baseUrl', {'url': 'http://localhost:1337/'}).
-    config(function($stateProvider, $urlRouterProvider, RestangularProvider){
+angular.module('app', ['ui.router', 'restangular', 'ngMessages'])
+    .constant('baseUrl', {'url': 'http://localhost:1337/'})
+    .config(['$stateProvider', '$urlRouterProvider', 'RestangularProvider', 'baseUrl',
+        function($stateProvider, $urlRouterProvider, RestangularProvider, baseUrl){
         // Set the base Object for RestAngular
-        RestangularProvider.setBaseUrl('http://localhost:1337/');
+        RestangularProvider.setBaseUrl(baseUrl.url);
 
         // For any unmatched url, send to /home/index
         $urlRouterProvider.otherwise("/home/index");
@@ -32,4 +33,4 @@ angular.module('app', ['ui.router', 'restangular', 'ngMessages']).
                   }
                 }
             });
-    });
+    }]);
