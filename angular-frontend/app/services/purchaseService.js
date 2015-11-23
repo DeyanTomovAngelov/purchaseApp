@@ -1,9 +1,9 @@
 'use strict';
 
 angular.module('app').service('purchaseService', ['Restangular', function(Restangular) {
-  var purchaseService = {},
+  var purchaseService = {};
   // Creating dayId as a private variable of the service function.
-      dayId = null;
+      purchaseService.dayId = null;
 
   // Getting all the data from the backend table days (sailsJS model) with RestAngular.
   purchaseService.days = Restangular.all('days');
@@ -16,13 +16,13 @@ angular.module('app').service('purchaseService', ['Restangular', function(Restan
 
   // Setting the day ID and calling the getPurchases function to update/refresh the table.
   purchaseService.setDayId = function (currentDayId) {
-    dayId = currentDayId;
+    purchaseService.dayId = currentDayId;
     purchaseService.getPurchases();
   };
 
   // Getting only the purchases for the current day with customGET restAngular, this function will be used for refreshing everywhere.
   purchaseService.getPurchases = function () {
-    return Restangular.all('purchase').customGET('', {dayId: dayId}).then(function (data) {
+    return Restangular.all('purchase').customGET('', {dayId: purchaseService.dayId}).then(function (data) {
       purchaseService.currentDayPurchases = data;
     });
   };
@@ -30,7 +30,7 @@ angular.module('app').service('purchaseService', ['Restangular', function(Restan
   // Adding new Purchase by using RestAngular post() method. I am setting the dayId here and using the getPurchases() to refresh the table
   // after creating a new purchase.
   purchaseService.addPurchase = function (dataObject) {
-    dataObject.dayId = dayId;
+    dataObject.dayId = purchaseService.dayId;
     return purchaseService.allPurchases.post(dataObject).then(function () {
       purchaseService.getPurchases();
     });
@@ -60,14 +60,10 @@ angular.module('app').service('purchaseService', ['Restangular', function(Restan
 
   // Editing the changes, for some reason the put() that was send to the backend was failing to get the dayId so I had to give it here.
   purchaseService.saveEditedPurchase = function (dataObject) {
-    dataObject.dayId = dayId;
+    dataObject.dayId = purchaseService.dayId;
     return Restangular.one('purchase', dataObject.id).put(dataObject).then(function () {
       purchaseService.getPurchases();
     });
-    //var editedPurchase = Restangular.copy(dataObject);
-    //return editedPurchase.put().then(function () {
-    //  purchaseService.getPurchases();
-    //});
   };
 
   return purchaseService;

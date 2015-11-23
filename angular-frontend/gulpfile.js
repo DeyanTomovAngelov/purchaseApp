@@ -1,8 +1,3 @@
-/*!
- * gulp
- * $ npm install gulp-ruby-sass gulp-autoprefixer gulp-minify-css gulp-jshint gulp-concat gulp-uglify gulp-imagemin gulp-notify gulp-rename gulp-livereload gulp-cache del --save-dev
- */
-
 // Load plugins
 var gulp = require('gulp'),
     sass = require('gulp-sass'),
@@ -19,7 +14,37 @@ var gulp = require('gulp'),
     open = require('gulp-open'),
     os = require('os'),
     connect = require('gulp-connect'),
-    del = require('del');
+    del = require('del'),
+    minify = require('gulp-minify'),
+    Server = require('karma').Server;
+
+
+// Test task. Run test once and exit.
+gulp.task('run-tests', function (done) {
+    new Server({
+        configFile:  __dirname +  '/karma.conf.js',
+        singleRun: true
+    }, done).start();
+});
+
+
+// Watch for file changes and re-run tests on each change.
+gulp.task('tdd', function (done) {
+    new Server({
+        configFile:  __dirname +  '/karma.conf.js'
+    }, done).start();
+});
+
+
+// Minify task
+gulp.task('compress', function() {
+  gulp.src('app/**/*.js')
+    .pipe(minify({
+        exclude: ['tasks'],
+        ignoreFiles: ['.combo.js', '-min.js']
+    }))
+    .pipe(gulp.dest('dist'))
+});
 
 
 // Create a server
