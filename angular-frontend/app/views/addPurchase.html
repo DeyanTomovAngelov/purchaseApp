@@ -1,0 +1,61 @@
+<div class="view-wrapper">
+  <div class="add-wrapper">
+    <div class="row dialog-header">
+      <header class="col-md-11">Add Purchase</header>
+      <span ng-click="cancelPurchase()" class="glyphicon glyphicon-remove remove-x col-md-1"></span>
+    </div>
+    <form method="post" name="addForm" ng-submit="addPurchase()">
+      <div class="row input-holder">
+        <div class="col-md-5">
+          <label for="purchase-name">Purchase Name</label>
+          <br/>
+          <input type="text" required id="purchase-name" name="purchaseName" ng-model="data.templateObject.purchaseName" placeholder="Enter purchase name"/>
+        </div>
+        <div class="col-md-5">
+          <label for="store-name">Purchase Name</label>
+          <br/>
+          <input type="text" required id="store-name" name="storeName" ng-model="data.templateObject.storeName" placeholder="Enter store name"/>
+        </div>
+        <div class="col-md-2">
+          <label for="price" id="price-label-id">Prise</label>
+          <br/>
+          <input type="number" min="5.00" max="999.99" required id="price" ng-model="data.templateObject.price" name="price" placeholder="5.00" step="0.01"/>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <label for="description" id="description-label">Description</label>
+          <br/>
+          <textarea id="description" ng-minlength="1" name="description" required data-ng-model="data.templateObject.description" placeholder="Enter purchase description"></textarea>
+        </div>
+      </div>
+      <div class="button-holder row">
+        <div class="col-md-4">
+          <button type="submit" ng-if="!data.editMode" class="btn btn-primary add-btn">Add</button>
+          <button ng-if="data.editMode" class="btn btn-primary add-btn" ng-click="saveEditedPurchase()">Save</button>
+          <button class="btn btn-default" ng-click="cancelPurchase()">Cancel</button>
+        </div>
+        <div class="col-md-1 col-md-offset-7">
+          <button ng-if="data.editMode" class="btn btn-danger btn-remove" ng-click="deletePurchase(data.templateObject)">Remove</button>
+        </div>
+      </div>
+      <div class="validation-holder">
+        <span ng-messages="addForm.purchaseName.$error">
+          <span ng-message="required" class="validation">You Need to Enter a Purchase Name!</span>
+        </span>
+        <span ng-messages="addForm.storeName.$error">
+          <span ng-message="required" class="validation">You Need to Enter a Store Name!</span>
+        </span>
+        <span ng-messages="addForm.price.$error">
+          <span ng-message="min" class="validation">The Price You Entered Must Be Higher Then $5!</span>
+          <span ng-message="required" class="validation">I Want to Buy Stuff For Free Too But I Can't!</span>
+          <span ng-message="max" class="validation">The Price You Entered Must Not Be Above $999!</span>
+        </span>
+        <span ng-messages="addForm.description.$error">
+          <span ng-message="required" class="validation">You Need to Enter Purchase Description!</span>
+        </span>
+      </div>
+    </form>
+  </div>
+  <div class="add-background"></div>
+</div>
