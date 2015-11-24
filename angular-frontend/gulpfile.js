@@ -77,13 +77,6 @@ gulp.task('styles', function() {
         .pipe(minifycss())
         .pipe(gulp.dest('dist/styles'))
         .pipe(notify({ message: 'Styles task complete' }));
-  /*return sass('app/styles/main-style.scss', { style: 'expanded' })
-    .pipe(autoprefixer('last 2 version'))
-    .pipe(gulp.dest('dist/styles'))
-    .pipe(rename({ suffix: '.min' }))
-    .pipe(minifycss())
-    .pipe(gulp.dest('dist/styles'))
-    .pipe(notify({ message: 'Styles task complete' }));*/
 });
 
 // Scripts
@@ -109,7 +102,7 @@ gulp.task('images', function() {
 
 // Clean
 gulp.task('clean', function() {
-  return del(['dist/styles', 'dist/scripts', 'dist/images']);
+  return del(['dist/styles', 'dist/scripts', 'dist/controllers', 'dist/module', 'dist/services', 'dist/images']);
 });
 
 // Default task
