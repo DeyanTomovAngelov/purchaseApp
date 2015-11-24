@@ -10,7 +10,7 @@ angular.module('app')
       var returnToCurrentDayPurchase = function () {
         $scope.data.templateObject = {};    // Resetting the ng-model of the form inputs.
         $scope.data.editMode = false;
-        return $state.go('home.purchasesByDay');
+        return $state.go('home.purchasesByDay');    // Returning to the current day purchases state.
       };
 
       // Making sure that we are at the right state for displaying the purchase data in our view and that we have $scope.days.

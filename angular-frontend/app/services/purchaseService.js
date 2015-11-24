@@ -16,8 +16,12 @@ angular.module('app').service('purchaseService', ['Restangular', function(Restan
 
   // Setting the day ID and calling the getPurchases function to update/refresh the table.
   purchaseService.setDayId = function (currentDayId) {
-    purchaseService.dayId = currentDayId;
-    purchaseService.getPurchases();
+    if (currentDayId && currentDayId < 8 && currentDayId > 0) {
+      purchaseService.dayId = currentDayId;
+      purchaseService.getPurchases();
+    } else {
+      purchaseService.currentDayPurchases = 'ERROR, INVALID dayId!';
+    }
   };
 
   // Getting only the purchases for the current day with customGET restAngular, this function will be used for refreshing everywhere.
@@ -61,9 +65,11 @@ angular.module('app').service('purchaseService', ['Restangular', function(Restan
   // Editing the changes, for some reason the put() that was send to the backend was failing to get the dayId so I had to give it here.
   purchaseService.saveEditedPurchase = function (dataObject) {
     dataObject.dayId = purchaseService.dayId;
-    return Restangular.one('purchase', dataObject.id).put(dataObject).then(function () {
-      purchaseService.getPurchases();
-    });
+    if(Restangular.one('purchase', dataObject.id)) {
+      return Restangular.one('purchase', dataObject.id).put(dataObject).then(function () {
+        purchaseService.getPurchases();
+      });
+    }
   };
 
   return purchaseService;
