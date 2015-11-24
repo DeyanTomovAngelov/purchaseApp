@@ -40,18 +40,18 @@
         </div>
       </div>
       <div class="validation-holder">
-        <span ng-messages="addForm.purchaseName.$error">
+        <span ng-messages="addForm.purchaseName.$error" ng-show="addForm.purchaseName.$touched">
           <span ng-message="required" class="validation">You Need to Enter a Purchase Name!</span>
         </span>
-        <span ng-messages="addForm.storeName.$error">
+        <span ng-messages="addForm.storeName.$error" ng-show="addForm.storeName.$touched">
           <span ng-message="required" class="validation">You Need to Enter a Store Name!</span>
         </span>
-        <span ng-messages="addForm.price.$error">
+        <span ng-messages="addForm.price.$error" ng-show="addForm.price.$touched">
           <span ng-message="min" class="validation">The Price You Entered Must Be Higher Then $5!</span>
           <span ng-message="required" class="validation">I Want to Buy Stuff For Free Too But I Can't!</span>
           <span ng-message="max" class="validation">The Price You Entered Must Not Be Above $999!</span>
         </span>
-        <span ng-messages="addForm.description.$error">
+        <span ng-messages="addForm.description.$error" ng-show="addForm.description.$touched">
           <span ng-message="required" class="validation">You Need to Enter Purchase Description!</span>
         </span>
       </div>
