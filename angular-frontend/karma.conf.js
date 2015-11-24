@@ -37,7 +37,7 @@ module.exports = function(config) {
         browsers: ['Chrome'],
         frameworks: ['jasmine'],
         files: [
-            'node_modules/angular/angular.js',
+            //'node_modules/angular/angular.js',
             'app/index.html',
             'node_modules/angular-mocks/angular-mocks.js',
             'app/**/*.js',
