@@ -1,4 +1,6 @@
- describe('purchaseService Unit Tests', function () {
+'use strict';
+
+describe('purchaseService Unit Tests', function () {
 
      var purchaseService,
          $httpBackend,
@@ -26,12 +28,12 @@
          expect(purchaseService.allPurchases.route).toEqual('purchase');
      });
 
-     it ('currentDayPurchases should be defined and to equal initially an empty array', function() {
+     it ('currentDayPurchases should be defined and equal initially an empty array', function() {
          expect(purchaseService.currentDayPurchases).toBeDefined();
          expect(purchaseService.currentDayPurchases).toEqual([]);
      });
 
-     it ('setDayId should be a function that sets the dayId', function() {
+     it ('setDayId should be a function that sets the dayId that is from the range of 1 to 7', function() {
          expect(purchaseService.setDayId).toBeDefined();
          expect(typeof purchaseService.setDayId).toEqual('function');
          purchaseService.setDayId(1);
@@ -91,7 +93,7 @@
          expect(typeof purchaseService.deletePurchase).toEqual('function');
      });
 
-     it ('editPurchase should be a function that sets a purchase object for editing in the form by getting that object as a parameter', function() {
+     it ('editPurchase should be a function that sets a purchase object for editing in the form by getting that object as a parameter and returning it', function() {
          spyOn(purchaseService, 'editPurchase').and.callThrough();
          var objForEditing = {
              description: 'Test description',
@@ -124,7 +126,6 @@
 
          purchaseService.saveEditedPurchase(mockToReturn);
          expect(Restangular.one).toHaveBeenCalledWith('purchase', mockToReturn.id);
-
 
          expect(purchaseService.saveEditedPurchase).toBeDefined();
          expect(typeof purchaseService.saveEditedPurchase).toEqual('function');
