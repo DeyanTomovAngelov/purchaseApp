@@ -63,6 +63,7 @@ angular.module('app').service('purchaseService', ['Restangular', function(Restan
   };
 
   // Editing the changes, for some reason the put() that was send to the backend was failing to get the dayId so I had to give it here.
+  // Actually it makes sense but I will keep the comment to remind me.
   purchaseService.saveEditedPurchase = function (dataObject) {
     dataObject.dayId = purchaseService.dayId;
     if(Restangular.one('purchase', dataObject.id)) {
