@@ -41,7 +41,6 @@ module.exports = function(config) {
             'app/index.html',
             'node_modules/angular-mocks/angular-mocks.js',
             'app/**/*.js',
-
             'app/unit-tests/**/*.js'
         ]
     });

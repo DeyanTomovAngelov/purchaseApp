@@ -1,3 +1,5 @@
+'use strict';
+
 describe('mainController Unit Tests', function() {
 
     var $controller,
@@ -18,12 +20,12 @@ describe('mainController Unit Tests', function() {
         $stateParams = _$stateParams_;
         purchaseService = _purchaseService_;
 
-        controller = $controller('mainController', {
-            '$scope': $scope,
-            '$state': $state,
-            '$stateParams': $stateParams,
-            'purchaseService': purchaseService
-        });
+        //controller = $controller('mainController', {
+        //    '$scope': $scope,
+        //    '$state': $state,
+        //    '$stateParams': $stateParams,
+        //    'purchaseService': purchaseService
+        //});
     }));
 
     it ('days should be defined and should be restAngular object', function() {
